@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="51000">Basic Settings</string>
+    <string id="51001">Keep Awake interval in minutes</string>
+    <string id="51002">Perform Wake-On-Lan after failed plays</string>
+    <string id="51003">Remote Ethernet MAC Address</string>
+    <string id="51004">Remote IP Address</string>
+    <string id="51005">Remote HTTP Port</string>
+    <string id="51006">Remote HTTP Username</string>
+    <string id="51007">Remote HTTP Password</string>
+    <string id="51008">Media type child relies on</string>
+    <string id="51009">Video</string>
+    <string id="51010">Audio</string>
+    <string id="51011">Video and Audio</string>
+</strings>

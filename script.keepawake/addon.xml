@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.keepawake" name="KeepAwake" version="1.0.0" provider-name="noam09">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">When you stream media from a remote Kodi library, KeepAwake makes sure it doesn't fall asleep while you're streaming</summary>
+    <description lang="en">If Kodi streams files from a remote Kodi instance, KeepAwake makes sure that the remote instance doesn't initiate sleep mode (suspend) by sending it a quick left and right remote "shake" (just like pressing left and right on its remote/keyboard).</description>
+    <platform>all</platform>
+    <website></website>
+    <source>https://github.com/noam09/kodi/script.keepawake</source>
+    <email></email>
+    <language></language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
+
+
