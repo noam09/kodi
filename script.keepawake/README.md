@@ -2,7 +2,7 @@
 When you stream media from a remote Kodi library, KeepAwake makes sure it doesn't fall asleep while you're streaming.
 
 ## Description
-If Kodi streams files from a remote Kodi instance, KeepAwake makes sure that the remote instance doesn't enter sleep mode (suspend) by sending it a quick left and right remote "shake" (just like pressing left and right on its remote/keyboard).
+If Kodi streams files from a remote Kodi instance, KeepAwake makes sure that the remote instance doesn't enter sleep mode by sending it a quick left and right remote "shake" (just like pressing left and right on its remote/keyboard). This prevents suspend.
 
 ## Installation
 Download the latest ZIP [here](https://github.com/noam09/kodi/tree/master/repo/script.keepawake).
