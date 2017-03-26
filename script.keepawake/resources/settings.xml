@@ -2,12 +2,12 @@
 <settings>
     <category label="51000">
         <setting id="interval" type="number" label="51001" default="10" />
-        <setting id="wakeOnLan" type="bool" label="51002"  default="false" />
-        <setting id="macAddress" type="text" label="51003" default="00:00:00:00:00:00" />
-        <setting id="parentHost" type="text" label="51004" default="" />
-        <setting id="parentPort" type="number" label="51005" default="" />
+        <setting id="parentHost" type="text" label="51004" default="0.0.0.0" />
+        <setting id="parentPort" type="number" label="51005" default="80" />
         <setting id="parentUser" type="text" label="51006" default="kodi" />
         <setting id="parentPass" type="text" label="51007" default="" />
+        <setting id="wakeOnLan" type="bool" label="51002"  default="false" />
+        <setting id="macAddress" type="text" label="51003" default="00:00:00:00:00:00" />
         <setting label="51008" type="enum" id="mediaType" lvalues="51009|51010|51011"/>
     </category>
 </settings>
