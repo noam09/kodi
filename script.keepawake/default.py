@@ -116,7 +116,7 @@ def loadSettings():
     g_parentPort = int(float(__addon__.getSetting("parentPort")))
     g_parentUser = __addon__.getSetting("parentUser")
     g_parentPass = __addon__.getSetting("parentPass")
-    g_mediaType = int(float(__addon__.getSetting("mediaType")))
+    g_mediaType = __addon__.getSetting("mediaType")
 
     log('Settings loaded!')
     log('interval \t%s' % g_interval)
@@ -142,6 +142,12 @@ class MyPlayer(xbmc.Player):
 
     def mediaTypeCheck(self):
         # Returns True if g_mediaType matches currently playing media type, otherwise returns False
+        try:
+            mediaType = int(float(g_mediaType))
+        except Exception as e:
+            log("mediaType couldn't be converted to int, %s" % e)
+            log("mediaType fallback to 2 (video and audio)")
+            mediaType = 2
         log('Enter mediaTypeCheck')
         if g_mediaType == 0 and self.isPlayingVideo() \
             or g_mediaType == 1 and self.isPlayingAudio() \
