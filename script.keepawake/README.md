@@ -12,6 +12,7 @@ Feel free to [install the repository](https://github.com/noam09/kodi/tree/master
 * Make sure the webserver is enabled on the remote Kodi instance, this can be found in `Settings → Services → Control → Allow control of Kodi via HTTP`.
 * Make note of the port and optional username (default `kodi`) and password (default `kodi`) values.
 * Determine the IP address of the remote Kodi device using the `System Information` screen, or by running the command relevant to your operating system in a terminal or command prompt (usually `ifconfig` on Linux, `ipconfig` on Windows).
+* Interval in minutes determines the delay between every time the remote Kodi is kept awake with a "shake", "rattle", or whatever you'd like to call it.
 * Input these values on the configuration screen for the KeepAwake addon.
 * If you would like to issue a Wake-On-Lan following failed stream attempts, or after a file has been paused for a while, enable the Wake-On-Lan setting and input the MAC address of the remote Kodi device.
 
