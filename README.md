@@ -7,6 +7,7 @@ Zipped packages:
   * [repository.coffee](https://github.com/noam09/kodi/tree/master/repo/repository.coffee)
   * [plugin.video.israelive](https://github.com/noam09/kodi/tree/master/repo/plugin.video.israelive)
   * [script.module.israeliveresolver](https://github.com/noam09/kodi/tree/master/repo/script.module.israeliveresolver)
+  * [metadata.tvdb.com.he](https://github.com/noam09/kodi/tree/master/repo/metadata.tvdb.com.he)
 
 Code:
 * [repository.coffee](https://github.com/noam09/kodi/tree/master/repository.coffee)
@@ -15,3 +16,4 @@ Code:
   * [script.keepawake](https://github.com/noam09/kodi/tree/master/script.keepawake)
   * [plugin.video.israelive](https://github.com/noam09/kodi/tree/master/plugin.video.israelive)
   * [script.module.israeliveresolver](https://github.com/noam09/kodi/tree/master/script.module.israeliveresolver)
+  * [metadata.tvdb.com.he](https://github.com/noam09/kodi/tree/master/metadata.tvdb.com.he)
