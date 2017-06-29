@@ -141,7 +141,7 @@
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
-		<source>https://github.com/noam09/skin.estuary.hebrew</source>
+		<source>https://github.com/noam09/kodi/skin.estuary.hebrew</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
