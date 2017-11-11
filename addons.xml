@@ -2,7 +2,7 @@
 <addons>
 <addon id="metadata.themoviedb.org.he"
        name="The Movie Database Hebrew"
-       version="3.9.5"
+       version="4.0.1"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -351,7 +351,7 @@
 
 <addon id="metadata.tvdb.com.he"
        name="The TVDB Hebrew"
-       version="1.8.5"
+       version="2.0.4"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
