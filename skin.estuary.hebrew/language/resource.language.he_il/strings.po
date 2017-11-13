@@ -4,542 +4,718 @@
 # Addon Provider: phil65, Ichabod Fletchman
 msgid ""
 msgstr ""
-"Project-Id-Version: KODI Main\n"
+"Project-Id-Version: skin.estuary\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Kodi Translation Team\n"
-"Language-Team: Hebrew (Israel) (http://www.transifex.com/projects/p/kodi-main/language/he_IL/)\n"
+"POT-Creation-Date: 2014-10-26 17:05+0000\n"
+"PO-Revision-Date: 2017-10-15 15:29+0300\n"
+"Last-Translator: A. Dambledore\n"
+"Language-Team: Eng2Heb\n"
+"Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: he_IL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: /xml/Home.xml /xml/DialogSeekBar.xml
 msgctxt "#31000"
 msgid "Now playing"
 msgstr "מנגן כעת"
 
+#: /xml/Home.xml
 msgctxt "#31001"
 msgid "Search..."
 msgstr "חיפוש..."
 
+#: /xml/SkinSettings.xml
 msgctxt "#31002"
 msgid "Show media fanart as background"
-msgstr "הצגת פאנארט כרקע"
+msgstr "הראה מדיית פאנארט כרקע"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31003"
 msgid "Cinema mode"
 msgstr "מצב קולנוע"
 
+#: /xml/VideoOSD.xml
 msgctxt "#31004"
 msgid "Change mode"
 msgstr "שינוי מצב"
 
+#: /xml/VideoOSD.xml
 msgctxt "#31005"
 msgid "Watch as 2D"
-msgstr "צפייה כ־2D"
+msgstr "צפייה כ-2D"
 
+#: /xml/Home.xml
 msgctxt "#31006"
 msgid "Random movies"
-msgstr "סרטים אקראיים"
+msgstr "‎סרטים אקראיים"
 
+#: /xml/Home.xml
 msgctxt "#31007"
 msgid "Unwatched movies"
 msgstr "סרטים שלא נצפו"
 
+#: /xml/SkinSettings.xml
+msgctxt "#31008"
+msgid "Enable category widgets"
+msgstr "אפשר יישומוני קטגוריה"
+
+#: /xml/MyVideoNav.xml
 msgctxt "#31009"
 msgid "Download icons"
-msgstr "הורד אייקונים"
+msgstr "הורד סמלילים"
 
+#: /xml/Home.xml
 msgctxt "#31010"
 msgid "In progress movies"
 msgstr "סרטים בצפייה"
 
+#: /xml/Home.xml
 msgctxt "#31011"
 msgid "Most played albums"
-msgstr "אלבומים שנוגנו לאחרונה"
+msgstr "אלבומים שנוגנו הכי הרבה"
 
+#: /xml/Home.xml
 msgctxt "#31012"
 msgid "Random albums"
-msgstr "אלבומים אקראיים"
+msgstr "‎אלבומים אקראיים"
 
+#: /xml/Home.xml
 msgctxt "#31013"
 msgid "Random artists"
 msgstr "אמנים אקראיים"
 
+#: /xml/Home.xml
 msgctxt "#31014"
 msgid "Unplayed albums"
-msgstr "אלבומים שלא הופעלו"
+msgstr "אלבומים שלא נוגנו"
 
+#. home screen recordings widget: recent tv / radio recordings
+#: /xml/Home.xml
 msgctxt "#31015"
 msgid "Recent recordings"
 msgstr "הקלטות אחרונות"
 
+#. home screen channel widget: recently played tv channels. (please note that in some non-english languages #31018 and #31016 might not be equal)
+#: /xml/Home.xml
 msgctxt "#31016"
 msgid "Recently played channels"
 msgstr "ערוצים שהופעלו לאחרונה"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31017"
 msgid "Rated"
-msgstr "דירוג"
+msgstr "מדורג"
 
+#. home screen channel widget: recently played radio channels. (please note that in some non-english languages #31018 and #31016 might not be equal)
+#: /xml/Home.xml
 msgctxt "#31018"
 msgid "Recently played channels"
 msgstr "ערוצים שהופעלו לאחרונה"
 
+#: /xml/Home.xml /xml/MyWeather.xml
 msgctxt "#31019"
 msgid "Forecast"
 msgstr "תחזית"
 
+#: /xml/MyMusicNav.xml /xml/MyPics.xml /xml/MyVideoNav.xml
 msgctxt "#31020"
 msgid "Actions"
 msgstr "פעולות"
 
+#: /xml/AddonBrowser.xml /xml/DialogPVRChannelManager.xml
+#: /xml/Includes_MediaMenu.xml /xml/EventLog.xml
 msgctxt "#31021"
 msgid "Misc options"
 msgstr "אפשרויות שונות"
 
+#: /xml/Includes_MediaMenu.xml /xml/Includes.xml
 msgctxt "#31022"
 msgid "Sort by"
 msgstr "מיון לפי"
 
+#: /xml/Includes_MediaMenu.xml
 msgctxt "#31023"
 msgid "Viewtype"
-msgstr "סוג תצוגה"
+msgstr "הצג סוג"
 
+#: /xml/SkinSettings.xml
+msgctxt "#31024"
+msgid "Choose rating to display for media items"
+msgstr "בחר דירוג להצגה עבור פריטי מדיה"
+
+#: /xml/DialogFavourites.xml
 msgctxt "#31025"
 msgid "No favourites found. You can add any item from media views to this list by using the context menu."
-msgstr "לא נמצאו מועדפים. ניתן להוסיף כל פריט מדיה לרשימה זו ע\"י שימוש בתפריט משנה."
+msgstr "לא נמצאו מועדפים. ניתן להוסיף כל פריט מדיה לרשימה זו ע\"י שימוש בתפריט הקישור."
 
+#: /xml/DialogSeekBar.xml
 msgctxt "#31026"
 msgid "Timeshift"
-msgstr "טיימשיפט"
+msgstr "הסט זמן"
 
+# empty string with id 31027
+#: /xml/DialogAlbumInfo.xml /xml/DialogVideoInfo.xml
 msgctxt "#31028"
 msgid "Show fanart"
-msgstr "הראה אומנות מעריצים"
+msgstr "הצג  פאנארט"
 
+#: /xml/SettingsProfile.xml
 msgctxt "#31029"
 msgid "Last logged in"
-msgstr "חובר לאחרונה"
+msgstr "התחברות לאחרונה ב-"
 
+#: /xml/SettingsSystemInfo.xml
 msgctxt "#31030"
 msgid "System memory usage"
-msgstr "זיכרון בשימוש ע\"י המערכת"
+msgstr "שימוש בזיכרון המערכת"
 
+#: /xml/SettingsSystemInfo.xml
 msgctxt "#31031"
 msgid "Version info"
-msgstr "מידע על הגרסה"
+msgstr "מידע גרסה"
 
+#: /xml/EventLog.xml /xml/Includes_MediaMenu.xml /xml/SmartPlaylistEditor.xml
 msgctxt "#31032"
 msgid "Order"
-msgstr "מיון"
+msgstr "הזמנה"
 
+#: /xml/DialogVideoInfo.xml /xml/DialogSongInfo.xml
 msgctxt "#31033"
 msgid "Your rating"
 msgstr "הדירוג שלך"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31034"
 msgid "Extended info"
 msgstr "מידע מורחב"
 
+#: /xml/DialogPVRChannelManager.xml /xml/DialogPVRChannelsOSD.xml
+#: /xml/DialogPVRGuideOSD.xml /xml/Variables.xml /xml/FileBrowser.xml
 msgctxt "#31035"
 msgid "Pages"
-msgstr "עמודים"
+msgstr "‎דפים"
 
+#: /xml/FileBrowser.xml /xml/Variables.xml /xml/MyPVRRecordings.xml
 msgctxt "#31036"
 msgid "items"
 msgstr "פריטים"
 
+# empty string with id 31037
+#: /xml/Variables.xml
 msgctxt "#31038"
 msgid "Rewind"
 msgstr "הרצה אחורה"
 
+#: /xml/Variables.xml
 msgctxt "#31039"
 msgid "Fast forward"
 msgstr "הרצה קדימה"
 
+# empty string with id 31040
+#: /xml/Variables.xml /xml/MyPics.xml
 msgctxt "#31041"
 msgid "Camera manufacturer"
 msgstr "יצרן מצלמה"
 
+#: /xml/SmartPlaylistEditor.xml
 msgctxt "#31042"
 msgid "Playlist options"
 msgstr "אפשרויות רשימת ניגון"
 
+#: /xml/SmartPlaylistEditor.xml
 msgctxt "#31043"
 msgid "Set the type and add rules to create a smart playlist. These playlists are dynamic and include all media items from your database which apply to your chosen rules."
-msgstr "הגדרת הסוג והחוקים ליצירת רשימת השמעה חכמה. רשימות השמעה אלו הן דינמיות וכוללות את כל המדיה ממאגר הנתונים שלך לפי החוקים שנבחרו."
+msgstr "הגדר את הסוג והוסף כללים ליצירת רשימת השמעה חכמה. רשימות השמעה אלו דינמיות וכוללות את כל פריטי המדיה ממסד הנתונים שלך, החלים בכללים שבחרת."
 
+#: /xml/DialogPVRGroupManager.xml
 msgctxt "#31044"
 msgid "Add group"
-msgstr "הוספת קבוצה"
+msgstr "הוסף קבוצה"
 
+#: /xml/DialogPVRGroupManager.xml
 msgctxt "#31045"
 msgid "Rename group"
-msgstr "שינוי שם קבוצה"
+msgstr "שנה שם קבוצה"
 
+#: /xml/DialogPVRGroupManager.xml
 msgctxt "#31046"
 msgid "Delete group"
-msgstr "מחיקת קבוצה"
+msgstr "מחק קבוצה"
 
+# empty string with id 31047
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31048"
 msgid "Available"
 msgstr "זמין"
 
+# empty string with id 31049
+#: /xml/Variables.xml
 msgctxt "#31050"
 msgid "Press [B]OK[/B] to stop"
-msgstr "לחץ [B]אישור[/B] כדי לעצור"
+msgstr "לחץ על [B]אישור[/B] כדי לעצור"
 
+#: /xml/VideoOSD.xml
 msgctxt "#31051"
 msgid "Toggle language"
 msgstr "החלף שפה"
 
+#: /xml/Includes.xml
 msgctxt "#31052"
 msgid "filtered"
-msgstr "סינון"
+msgstr "מסונן"
 
+#: /xml/Font.xml
 msgctxt "#31053"
 msgid "Arial based"
-msgstr "מבוסס Arial"
+msgstr "מבוסס אריאל"
 
+#: /xml/Variables.xml
 msgctxt "#31054"
 msgid "Press [B]Left[/B] to rewind, or [B]Right[/B] to fast-forward"
-msgstr "לחץ [B]שמאלה[/B] להרצה אחורה, או [B]ימינה[/B] להרצה קדימה"
+msgstr "לחצו על [B]שמאלה[/B] כדי להריץ אחורה, או [B]ימינה[/B] כדי להריץ קדימה"
 
+# empty string with id 31055
+#: /xml/MyMusicNav.xml /xml/MyVideoNav.xml
 msgctxt "#31056"
 msgid "Go to playlist"
-msgstr "מעבר לרשימת השמעה"
+msgstr "מעבר לרשימת ניגון"
 
+#: /xml/SettingsProfile.xml
 msgctxt "#31057"
 msgid "Show login screen on startup"
 msgstr "הצג מסך כניסה בעת ההפעלה"
 
+#: /xml/SettingsProfile.xml
 msgctxt "#31058"
 msgid "Automatic Login on startup"
-msgstr "התחברות אוטומטית בהפעלה"
+msgstr "התחברות אוטומטית באיתחול"
 
+# empty strings from id 31059 to 31060
+#: /xml/SkinSettings.xml
 msgctxt "#31061"
 msgid "Main menu items"
 msgstr "פריטי תפריט ראשי"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31062"
 msgid "Choose weather fanart pack"
-msgstr "בחר חבילת אומנות של אוהדים למזג האוויר"
+msgstr "בחר חבילת פאנארט למזג האוויר"
 
+#: /xml/Includes_MediaMenu.xml
 msgctxt "#31063"
 msgid "Sections"
-msgstr "סעיפים"
+msgstr "מקטעים"
 
+# empty string with id 31064
+#: /xml/MyVideoPlaylist.xml
 msgctxt "#31065"
 msgid "Video playlist"
 msgstr "רשימות ניגון וידאו"
 
+#: /xml/MyMusicPlaylist.xml
 msgctxt "#31066"
 msgid "Music playlist"
 msgstr "רשימות ניגון מוזיקה"
 
+#: /xml/EventLog.xml
 msgctxt "#31067"
 msgid "Event log"
 msgstr "יומן אירועים"
 
+#: /xml/Custom_1105_MusicOSDSettings.xml
 msgctxt "#31068"
 msgid "Choose presets"
 msgstr "בחר הגדרות קבועות מראש"
 
+#: /xml/AddonBrowser.xml
 msgctxt "#31069"
 msgid "Last Updated"
 msgstr "עודכן לאחרונה"
 
+# empty string with id 31070
+#: /xml/DialogAddonInfo.xml
 msgctxt "#31071"
 msgid "by"
 msgstr "על ידי"
 
+#: /xml/DialogButtonMenu.xml /xml/LoginScreen.xml
 msgctxt "#31072"
 msgid "Power Options"
-msgstr "אפשרויות חשמל"
+msgstr "אפשרויות כיבוי"
 
+# empty strings from id 31073 to 31074
+#: /xml/Home.xml
 msgctxt "#31075"
 msgid "Movie sets"
 msgstr "מארז סרטים"
 
+# empty strings from id 31076 to 31078
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31079"
 msgid "Cast not available"
-msgstr "אין מידע על השחקנים"
+msgstr "שידור אינו זמין"
 
+#: /xml/VideoOSD.xml
 msgctxt "#31080"
 msgid "Ends at"
-msgstr "מסתיים ב"
+msgstr "מסתיים ב-"
 
+# empty string with id 31081
+#: /xml/Custom_1105_MusicOSDSettings.xml
 msgctxt "#31082"
 msgid "Lyrics add-on"
-msgstr "הרחבת מילות שירים"
+msgstr "הרחבת מילים לשירים"
 
+#: /xml/Custom_1105_MusicOSDSettings.xml
 msgctxt "#31083"
 msgid "Lyrics add-on settings"
-msgstr "הגדרות הרחבת מילות שירים"
+msgstr "הגדרות הרחבת מילים"
 
+#: /xml/Custom_1105_MusicOSDSettings.xml
 msgctxt "#31084"
 msgid "Visualisation settings"
-msgstr "הגדרות ויזואליזציה"
+msgstr "הגדרות הדמיה"
 
+# empty strings from id 31085 to 31088
+#: /xml/DialogPVRGroupManager.xml
 msgctxt "#31089"
 msgid "Available groups"
 msgstr "קבוצות זמינות"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31090"
 msgid "Search trailer"
 msgstr "חפש קדימון"
 
+# empty string with id 31091
+#: /xml/VideoOSD.xml /xml/Variables.xml
 msgctxt "#31092"
 msgid "Video menu"
-msgstr "תפריט וידאו"
+msgstr "תפריט ווידאו"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31093"
 msgid "Show weather info in top bar"
 msgstr "הצג פרטי מזג אוויר בסרגל העליון"
 
+# empty string with id 31094
+#: /xml/SkinSettings.xml
 msgctxt "#31095"
 msgid "Use slide animations"
-msgstr "אפשר הנפשות"
+msgstr "אפשר הנפשות החלקה"
 
+#: /xml/DialogSubtitles.xml
 msgctxt "#31096"
 msgid "Local subtitle available"
 msgstr "כתובית מקומית זמינה"
 
+#: /xml/DialogPVRChannelManager.xml
 msgctxt "#31097"
 msgid "Channel options"
 msgstr "אפשרויות ערוץ"
 
+#: /xml/LoginScreen.xml
 msgctxt "#31098"
 msgid "Select your Kodi user profile[CR]to login and continue"
-msgstr "יש לבחור חשבון משתמש Kodi[CR]להתחברות והמשך"
+msgstr "יש לבחור את חשבון המשתמש שלך[CR]בקודי להתחברות והמשך"
 
+#. viewtype name
+#: /xml/View_52_IconWall.xml
 msgctxt "#31099"
 msgid "IconWall"
-msgstr "קיר איקונים"
+msgstr "קיר סמלילים"
 
+#. viewtype name
+#: /xml/View_53_Shift.xml
 msgctxt "#31100"
 msgid "Shift"
-msgstr "Shift"
+msgstr "הזזה"
 
+#. viewtype name
+#: /xml/View_54_InfoWall.xml
 msgctxt "#31101"
 msgid "InfoWall"
 msgstr "קיר מידע"
 
+#. viewtype name
+#: /xml/View_500_Wall.xml
 msgctxt "#31102"
 msgid "Wall"
 msgstr "קיר"
 
+#: /xml/SmartPlaylistRule.xml
 msgctxt "#31103"
 msgid "Enter text here..."
-msgstr "הכנס טקסט כאן..."
+msgstr "הכנס את הטקסט כאן..."
 
+#: /xml/Home.xml
 msgctxt "#31104"
 msgid "Your library is currently empty. In order to populate it with your personal media, enter \"Files\" section, add a media source and configure it. After the source has been added and indexed you will be able to browse your library."
-msgstr "הספריה שלך ריקה כרגע. על מנת להוסיף לה את התכנים שלך, יש להוסיף מקורות מדיה דרך מסך \"קבצים\". לאחר שהמקור נוסף ונסרק, הוא יהיה זמין בספריה."
+msgstr "הספרייה שלך ריקה כרגע. על מנת להוסיף את התכנים שלך, יש להוסיף מקורות מדיה דרך מסך 'קבצים'. לאחר שהמקור נוסף ונסרק, הוא יהיה זמין בספרייה."
 
+#: /xml/Home.xml
 msgctxt "#31105"
 msgid "Add video sources and set the appropriate content type in order to populate your video libraries."
-msgstr "הוסף מקורות וידאו והגדר את סוג התכנים המתאימים לצורך איכלוס ספריית הוידאו שלך"
+msgstr "הוסף מקורות וידאו והגדר את סוג התוכן המתאים כדי לאכלס את ספריות הווידאו שלך."
 
+#: /xml/Variables.xml
 msgctxt "#31106"
 msgid "Teletext"
 msgstr "טלטקסט"
 
+#. viewtype name
+#: /xml/View_55_WideList.xml
 msgctxt "#31107"
 msgid "WideList"
 msgstr "רשימה רחבה"
 
+# empty strings from id 31108 to 31109
+#: /xml/Home.xml
 msgctxt "#31110"
 msgid "Enter files section"
-msgstr "כניסה לקבצים"
+msgstr "הזן מקטע קבצים"
 
+#: /xml/Home.xml
 msgctxt "#31111"
 msgid "View your personal pictures or download one of the many image add-ons from the official repository."
-msgstr "צפה בתמונותיך האישיות או הורד את אחת מהרחבות התמונות הרבות מהמאגר הרשמי."
+msgstr "הצג את התמונות האישיות שלך או הורד אחת מהרחבות התמונה הרבות מהמאגר הרשמי."
 
+#: /xml/VideoOSD.xml
 msgctxt "#31112"
 msgid "Toggle audio stream"
-msgstr "החלף רצועת שמע"
+msgstr "החלף זרם שמע"
 
+#: /xml/Custom_1107_SearchDialog.xml
 msgctxt "#31113"
 msgid "Search local library"
 msgstr "חפש ספרייה מקומית"
 
+#: /xml/Custom_1107_SearchDialog.xml /xml/DialogMusicInfo.xml
 msgctxt "#31114"
 msgid "Search YouTube"
-msgstr "חפש ביוטיוב"
+msgstr "חפש ביו-טיוב"
 
+#: /xml/Custom_1107_SearchDialog.xml
 msgctxt "#31115"
 msgid "Search TheMovieDB"
-msgstr "חיפוש ב TheMovieDB"
+msgstr "חיפוש ב-TheMovieDB"
 
+#: /xml/Includes_Home.xml
 msgctxt "#31116"
 msgid "Remove this main menu item"
-msgstr "מחק את פריט התפריט הזה"
+msgstr "מחק את פריט התפריט הראשי הזה"
 
+#: /xml/MyVideoNav.xml
 msgctxt "#31117"
 msgid "Edit nodes"
-msgstr "עריכת קשרים"
+msgstr "עריכת צמתים"
 
+#: /xml/Home.xml
 msgctxt "#31118"
 msgid "Enter add-on browser"
-msgstr "הפעל הרחבות דפדפן"
+msgstr "הפעל דפדפן הרחבות"
 
+#: /xml/Home.xml
 msgctxt "#31119"
 msgid "You do not have any add-ons installed yet. Visit our add-on browser to browse through our collection and improve your Kodi experience."
-msgstr "אין לך שום הרחבות מותקנות עדיין. בקר בהרחבות הדפדפן ודפדפן באוסף שלנו ושפר את חווית הקודי שלך."
+msgstr "עדיין לא מותקנות הרחבות. בקר בדפדפן ההרחבות שלנו, כדי לעיין באוסף שלנו ולשפר את חווית הקודי שלך."
 
+#: /xml/Home.xml
 msgctxt "#31120"
 msgid "You did not set up a weather provider yet. In order to view weather information, choose a weather provider and set up your location."
-msgstr "עדיין לא הגדרת שום ספק מזג אוויר. לצורך צפיה בתחזית מזג האוויר, בחר ספק מזג אוויר והגדר את מיקומך."
+msgstr "עדיין לא הגדרת ספק מזג אוויר. כדי להציג מידע על מזג האוויר, בחר ספק מזג אוויר והגדר את המיקום שלך."
 
+#: /xml/Home.xml
 msgctxt "#31121"
 msgid "Set weather provider"
 msgstr "הגדר ספק מזג האוויר"
 
+#: /xml/Home.xml
 msgctxt "#31122"
 msgid "Unwatched TV Shows"
 msgstr "סדרות טלוויזיה שלא נצפו"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31123"
 msgid "Same director"
 msgstr "אותו במאי"
 
+#: /xml/MyPics.xml
 msgctxt "#31124"
 msgid "Show images on map"
-msgstr "הראה תמונות במפה"
+msgstr "הראה תמונות על מפה"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31125"
 msgid "Press up for actor info"
-msgstr "בשביל מידע על השחקן up  לחץ על"
+msgstr "לחץ על למעלה לקבלת מידע על השחקן"
 
+#: /xml/DialogVideoInfo.xml
 msgctxt "#31126"
 msgid "Press OK to read plot"
-msgstr "על מנת לקרוא עלילה OK לחץ על "
+msgstr "לחץ על אישור לקריאת העלילה"
 
+#: /xml/Includes_MediaMenu.xml
 msgctxt "#31127"
 msgid "Show icons"
-msgstr "הראה סמלים"
+msgstr "הראה סמלילים"
 
+#: /xml/Variables.xml
 msgctxt "#31128"
 msgid "Contributors"
 msgstr "תורמים"
 
+#: /xml/Variables.xml
 msgctxt "#31129"
 msgid "General settings applying to all areas of the skin."
-msgstr "הגדרות כלליות שחלות על כל האזורים של המעטפת"
+msgstr "הגדרות כלליות החלות על כל האזורים של המעטפת."
 
+#: /xml/Variables.xml
 msgctxt "#31130"
 msgid "Main menu-related settings: Configure the home screen to your likings."
-msgstr "הגדרות תפריט ראשי: הגדר את מסך הבית לטעמך."
+msgstr "הגדרות הקשורות לתפריט הראשי: הגדר את מסך הבית בהתאם להעדפותיך."
 
+#: /xml/SkinSettings.xml
 msgctxt "#31131"
 msgid "Choose skin fanart pack"
-msgstr "בחר חבילת חליפת (סקין) אמנים אוהדים"
+msgstr "בחר חבילת פאנארט למעטפת"
 
-msgctxt "#31132"
-msgid "min"
-msgstr "מינימום"
-
+# empty strings from id 31132 to 31133
+#: /xml/DialogSeekBar.xml
 msgctxt "#31134"
 msgid "Remaining"
 msgstr "נותר"
 
+# empty string with id 31135
+#: /xml/DialogAddonInfo.xml
 msgctxt "#31136"
 msgid "Click here to see latest changes..."
-msgstr "לחץ כאן בכדי לראות את השינויים האחרונים..."
+msgstr "לחץ כאן לראות את השינויים האחרונים..."
 
+#: /xml/DialogPlayerProcessInfo.xml
 msgctxt "#31137"
 msgid "PVR info"
-msgstr "מידע מקליט וידאו אישי"
+msgstr "מידע PVR"
 
+#: /xml/DialogPlayerProcessInfo.xml
 msgctxt "#31138"
 msgid "Player process info"
-msgstr "נגן עיבוד מידע"
+msgstr "מידע על תהליך הנגן"
 
+#: /xml/DialogPlayerProcessInfo.xml
 msgctxt "#31139"
 msgid "Video decoder"
-msgstr "מפענח וידאו"
+msgstr "מקודד ווידאו"
 
+#: /xml/DialogPlayerProcessInfo.xml
 msgctxt "#31140"
 msgid "Pixel format"
 msgstr "פורמט פיקסל"
 
+#: /xml/DialogAddonInfo.xml
 msgctxt "#31141"
 msgid "Changes for version"
-msgstr "שינויים בגרסא"
+msgstr "שינויים עבור הגרסה"
 
+#: /xml/Variables.xml
 msgctxt "#31142"
 msgid "Play speed"
 msgstr "מהירות ניגון"
 
+#: /xml/Home.xml
 msgctxt "#31143"
 msgid "You did not set up PVR yet. In order to use PVR, choose a PVR client addon and configure it. Please visit http://kodi.wiki/view/PVR to learn more."
-msgstr "לא הגדרת שום מקליט וידאו אישי עדיין. לצורך שימוש במקליט וידאו אישי, בחר הרחבת לקוח מקליט וידאו אישי והגדר אותו. למידע נוסף בקר ב http://kodi.wiki/view/PVR"
+msgstr "אתה עדיין לא הגדרת לקוח PVR. כדי להשתמש ב-PVR, בחר בהרחבת לקוח PVR והגדר אותה. בקר בכתובת: http://kodi.wiki/view/PVR למידע נוסף."
 
+#: /xml/Home.xml
 msgctxt "#31144"
 msgid "Enter add-on browser"
-msgstr "הפעל הרחבות דפדפן"
+msgstr "הפעל דפדפן הרחבות"
 
+#: /xml/Custom_1107_SearchDialog.xml
 msgctxt "#31145"
 msgid "Search add-ons"
-msgstr "חיפוש הרחבות"
+msgstr "חפש הרחבות"
 
+# empty strings from id 31146 to 31147
+#: /xml/Home.xml
 msgctxt "#31148"
 msgid "Categories"
 msgstr "קטגוריות"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31149"
 msgid "Select genre fanart pack"
-msgstr "בחר סוג חבילת אמנים אוהדים"
+msgstr "בחר חבילת סגנונות פאנארט"
 
+#: /xml/DialogAddonInfo.xml
 msgctxt "#31150"
 msgid "Repository"
-msgstr "מאגר"
+msgstr "מאגר (Repository)"
 
+#: /xml/Home.xml
 msgctxt "#31151"
 msgid "Unwatched music videos"
-msgstr "קליפי מוזיקה שלא נצפו"
+msgstr "סרטוני מוזיקה שטרם נצפו"
 
+#: /xml/Home.xml
 msgctxt "#31152"
 msgid "Random music videos"
-msgstr "קליפי מוזיקה רנדומליים"
+msgstr "סרטוני מוזיקה אקראיים"
 
+#: /xml/Includes.xml
 msgctxt "#31153"
 msgid "You do not have any add-ons of this type installed. Enter the add-on browser to download add-ons created by our community."
-msgstr "אין לך שום הרחבה מסוג זה מותקנת. היכנס לדפדפן ההרחבות לצורך הורדת הרחבות שנוצרת ע\"י הקהילה שלנו."
+msgstr "לא מותקנות הרחבות מהסוג זה. אנא כנס לדפדפן ההרחבות  כדי להוריד הרחבות שנוצרו על ידי הקהילה שלנו."
 
+#: /xml/MyWeather.xml
 msgctxt "#31154"
 msgid "Press OK to switch between locations"
-msgstr "לחץ אישור להחלפת מיקום"
+msgstr "לחץ על אישור כדי לעבור בין מיקומים"
 
+#: /xml/VideoOSDBookmarks.xml
 msgctxt "#31155"
 msgid "No bookmarks created yet."
-msgstr "אין סימניות שנוצרו עדיין."
+msgstr "עדיין לא נוצרו סימניות."
 
+#: /xml/SkinSettings.xml
 msgctxt "#31156"
 msgid "Choose background pattern"
 msgstr "בחר תבנית רקע"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31157"
 msgid "Edit categories"
 msgstr "עריכת קטגוריות"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31158"
 msgid "Touch mode"
-msgstr "מצב מגע"
+msgstr "מצב לחיצה"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31159"
 msgid "Artwork"
-msgstr "עבודת אומנות"
+msgstr "גרפיקה"
 
+#: /xml/SkinSettings.xml
 msgctxt "#31160"
 msgid "Show media flags"
-msgstr "הראה דגלי מדיה"
+msgstr "הצג דגלי מידע על הסרט"
 
+#: /xml/DialogNumeric.xml
 msgctxt "#31161"
 msgid "Numeric pad"
-msgstr "מקשי פד הספרות"
+msgstr "לוח ספרות"
+
+#: /xml/Home.xml
+msgctxt "#31162"
+msgid "Play your personal games or download one of the many game add-ons from the official repository."
+msgstr "שחק את המשחקים האישיים שלך או הורד אחד מהמשחקים הרבים מהמאגר הרשמי."
+
+#: /xml/Custom_1105_MusicOSDSettings.xml
+msgctxt "#31163"
+msgid "Show Fanart background"
+msgstr "הצג רקע פאנארט"
