@@ -351,7 +351,7 @@
 
 <addon id="metadata.tvdb.com.he"
        name="The TVDB Hebrew"
-       version="2.0.4"
+       version="2.0.5"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
