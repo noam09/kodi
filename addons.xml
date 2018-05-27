@@ -353,7 +353,7 @@
 
 <addon id="metadata.tvdb.com.he"
        name="The TVDB Hebrew"
-       version="3.0.1"
+       version="3.0.2"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
