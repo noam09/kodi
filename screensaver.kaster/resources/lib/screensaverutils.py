@@ -29,6 +29,7 @@ class ScreenSaverUtils:
 
     @staticmethod
     def remove_unknown_author(author):
+        return kodiutils.get_string(32007)
         if "unknown" in author.lower():
             return kodiutils.get_string(32007)
         else:
