@@ -22,6 +22,7 @@ import xbmc
 import os
 import json
 
+
 class ScreenSaverUtils:
 
     def __init__(self):
@@ -29,7 +30,6 @@ class ScreenSaverUtils:
 
     @staticmethod
     def remove_unknown_author(author):
-        return kodiutils.get_string(32007)
         if "unknown" in author.lower():
             return kodiutils.get_string(32007)
         else:
@@ -47,8 +47,8 @@ class ScreenSaverUtils:
             self.__append_image(os.path.join(xbmc.translatePath(path), _file))
         if folders:
             for folder in folders:
-                path = os.path.join(path,folder)
-                self.__get_images_recursively(path)
+                pathb = os.path.join(path, folder)
+                self.__get_images_recursively(pathb)
 
     def get_all_images(self):
         return self.images
@@ -61,9 +61,9 @@ class ScreenSaverUtils:
         if xbmcvfs.exists(image_file):
             f = xbmcvfs.File(image_file)
             try:
-               images_dict = json.loads(f.read())
+                images_dict = json.loads(f.read())
             except ValueError:
-               kodiutils.log(kodiutils.get_string(32010), xbmc.LOGERROR)
+                kodiutils.log(kodiutils.get_string(32010), xbmc.LOGERROR)
             f.close()
 
         self.__get_images_recursively(xbmc.translatePath(path))
@@ -76,11 +76,9 @@ class ScreenSaverUtils:
                 }
                 if images_dict:
                     for image in images_dict:
-                        if "image" in list(image.keys()) and os.path.join(xbmc.translatePath(path),image["image"]) == _file:
+                        if "image" in list(image.keys()) and os.path.join(xbmc.translatePath(path), image["image"]) == _file:
                             if "line1" in list(image.keys()):
                                 returned_dict["line1"] = image["line1"]
                             if "line2" in list(image.keys()):
                                 returned_dict["line2"] = image["line2"]
                 yield returned_dict
-
-
