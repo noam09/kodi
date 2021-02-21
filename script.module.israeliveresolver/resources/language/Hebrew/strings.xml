@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+    <string id="30000">כפה שימוש ב- User-Agent</string>
+    <string id="30001">הגדר User-Agent (אם ריק- נשתמש באקראי)</string>
+	<string id="30002">כתובת IP ישראלית (אם ריק - נשתמש בברירת מחדל)</string>
+	<string id="30003">שם משתמש ב-Mako</string>
+	<string id="30004">סיסמה ב-Mako</string>
+	<string id="30005">מזהה מכשיר ב-Mako</string>
+</strings>
